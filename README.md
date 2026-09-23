@@ -31,6 +31,8 @@ The platform provides a seamless hub to discover, book, and pay for vacation act
 * **Botpress:** Conversational AI for automated customer support.
 * **Maps & Location:** Google Maps API
 
+---
+
 ## File Structure
 ```
 rentbnb/
