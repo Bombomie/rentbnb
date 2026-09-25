@@ -1,5 +1,5 @@
 # 🏝️ RentBnB
-**RentBnB** is a mobile marketplace application designed to connect tourists and locals with adventure equipment and local experiences. Expanding on the traditional accommodation model, RentBnB specializes in "activity rentals"—ranging from island-hopping boats and scuba gear to canyoneering packages. 
+**RentBnB** is a web marketplace application designed to connect tourists and locals with adventure equipment and local experiences. Expanding on the traditional accommodation model, RentBnB specializes in "activity rentals"—ranging from island-hopping boats and scuba gear to canyoneering packages. 
 
 The platform provides a seamless hub to discover, book, and pay for vacation activities while empowering local providers to manage their businesses digitally.
 
