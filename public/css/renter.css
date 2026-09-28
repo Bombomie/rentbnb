@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Jost;
+    margin: 15px;
+}
+
+.logo{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 25px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user h2{
+    margin: 0;
+}
+
+.usr-logo{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.content{
+    font-family: Inconsolata;
+    padding-top: 7rem;
+    position: relative;
+}
+
+
