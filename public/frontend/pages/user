@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentBnB</title>
+    <link rel="stylesheet" href="public\css\user.css" />
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html">
+                <img src="public/Images/rentbnb_logo2.png" alt="RentBnB Logo" class="logo">
+            </a>
+            <div class="user">
+                <h2>Username</h2>
+                <a href="#">
+                    <img src="public\Images\profile.png" alt="User Logo" class="usr-logo">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <section class="content">
+    </section>
+</body>
+</html>

@@ -1,1 +1,86 @@
-/* This will be for the styles that will be used mostly in all pages */
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Jost;
+    margin: 15px;
+}
+
+.logo{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 25px;
+}
+
+.regis{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 600px;
+}
+
+.regis h2{
+    margin: 0;
+}
+
+.regis .btn {
+    flex: 1;
+    font-family: Jost;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #36BBC6;
+    border: none;
+    border-radius: 20px;
+    padding: 14px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-decoration: none; 
+}
+
+.content{
+    font-family: Inconsolata;
+    padding-top: 7rem;
+    position: relative;
+}
+
+.bg-img {
+    position: absolute;
+    inset: 0;              
+    width: 100%;
+    height: 100%;
+    object-fit: cover;      
+    z-index: -1;           
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.intro h1{
+    font-family: Jost;
+    color: #36BBC6;
+    font-size: 40px;
+    margin: 5px;
+}
+
+.intro h2{
+    font-style: italic;
+    font-size: 25px;
+}
+
+.intro p {
+    max-width: 800px;
+    text-align: center;
+    font-size: 20px;
+}
+
