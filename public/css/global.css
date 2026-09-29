@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-
+body {
+    margin: 0;
+    background: url('../Images/bnb_bg.jpg') center / cover no-repeat fixed;
 }
 
 .navbar{
@@ -50,14 +51,14 @@ body{
     position: relative;
 }
 
-.bg-img {
-    position: absolute;
-    inset: 0;              
+/* .bg-img {
+    position: fixed;
+    inset: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover;      
-    z-index: -1;           
-}
+    object-fit: cover;
+    z-index: -1;
+} */
 
 .intro {
     display: flex;
@@ -68,7 +69,7 @@ body{
 
 .intro h1{
     font-family: Jost;
-    color: #36BBC6;
+    color: #6AD4DD;
     font-size: 40px;
     margin: 5px;
 }

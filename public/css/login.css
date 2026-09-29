@@ -1,0 +1,74 @@
+@import url('../css/global.css');
+
+.logo {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 25px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.card {
+    background-color: #36BBC6;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    height: 800px;
+}
+
+.card h1{
+    font-family: Jost;
+    color: white;
+    padding-top: 5rem;
+    font-size: 50px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 80%;
+    margin-top: 2rem;
+    font-family: Jost, sans-serif;
+    color: white;
+}
+
+.login-form input {
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: inherit;
+}
+
+.login-form button {
+    margin-top: 1rem;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: #36BBC6;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.signup-text {
+    text-align: center;
+}
+
+.signup-text a {
+    color: white;
+    font-weight: 600;
+}
