@@ -2,7 +2,7 @@
 
 body {
     margin: 0;
-    background: url('../Images/bnb_bg.jpg') center / cover no-repeat fixed;
+    /* background: url('../Images/bnb_bg.jpg') center / cover no-repeat fixed; */
 }
 
 .navbar{
@@ -36,7 +36,7 @@ body {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    background-color: #36BBC6;
+    background-color: #6AD4DD;
     border: none;
     border-radius: 20px;
     padding: 14px;
@@ -51,14 +51,15 @@ body {
     position: relative;
 }
 
-/* .bg-img {
+.bg-img {
     position: fixed;
     inset: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     z-index: -1;
-} */
+    opacity: 0.8; /* 0 = invisible, 1 = full */
+}
 
 .intro {
     display: flex;
@@ -69,7 +70,7 @@ body {
 
 .intro h1{
     font-family: Jost;
-    color: #6AD4DD;
+    color: black;
     font-size: 40px;
     margin: 5px;
 }
@@ -77,6 +78,7 @@ body {
 .intro h2{
     font-style: italic;
     font-size: 25px;
+    
 }
 
 .intro p {
